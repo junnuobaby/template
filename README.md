@@ -1,3 +1,5 @@
+## webpack + es6 + scss
+
 ### init
 * run "npm install" or "tnpm install" 
 
