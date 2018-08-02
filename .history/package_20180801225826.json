@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "a template for generate a new project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junnuobaby/template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junnuobaby/template/issues"
+  },
+  "homepage": "https://github.com/junnuobaby/template#readme",
+  "devDependencies": {
+    "webpack": "^4.0.0-beta.3",
+    "webpack-cli": "^3.1.0"
+  }
+}

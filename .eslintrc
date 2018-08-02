@@ -1,0 +1,40 @@
+{
+  "extends": "eslint-config-ali/react",
+  "parser": "babel-eslint",
+  "globals": {
+    "_DEV": true,
+    "_PRODUCTION": true,
+    "_DEBUG_TEST": true,
+    "_DEBUG_Pre": true
+  },
+  "rules": {
+    "semi": ["warn", "always"],
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0,
+    "one-var": 0,
+    "arrow-parens": 0,
+    "indent": [1, 2],
+    "react/jsx-indent": [1, 2],
+    "react/jsx-indent-props": 2,
+    "react/jsx-no-target-blank": 0,
+    "react/no-array-index-key": 0,
+    "import/newline-after-import": false,
+    "import/prefer-default-export": false,
+    "no-plusplus": 0,
+    "no-console": 0,
+    "no-unused-vars": 1,
+    "react/no-unused-state": 0,
+    "import/first": 0,
+    "react/sort-comp": 0,
+    "arrow-body-style": 0,
+    "array-callback-return": 0,
+    "max-len": 0,
+    "no-bitwise": 0,
+    "default-case": 0,
+    "no-extend-native": 0,
+    "radix": 0,
+    "no-unreachable": 0,
+    "no-param-reassign": 0,
+    "complexity": 0
+  }
+}
